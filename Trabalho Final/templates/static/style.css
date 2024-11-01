@@ -1,0 +1,59 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif; /* Fonte padrão */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Centraliza verticalmente */
+    background-color: #f4f4f4; /* Cor de fundo */
+}
+
+/* Estilos do cabeçalho e nav */
+header {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    width: 100%;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none; /* Remove os marcadores */
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centraliza os itens do nav */
+}
+
+nav li {
+    margin: 0 15px; /* Espaçamento entre os botões */
+}
+
+/* Estilos dos botões */
+.btn {
+    background-color: #007BFF; /* Cor do botão */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Efeito de transição */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Cor do botão ao passar o mouse */
+}
+
+/* Estilos do título */
+.titulo {
+    text-align: center; /* Centraliza o título */
+    font-size: 2.5rem; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+    margin: 20px 0; /* Espaçamento acima e abaixo do título */
+}
+
+/* Estilos do rodapé */
+footer {
+    margin-top: auto; /* Faz o rodapé ficar na parte inferior */
+    padding: 20px;
+    text-align: center; /* Centraliza o texto do rodapé */
+}
